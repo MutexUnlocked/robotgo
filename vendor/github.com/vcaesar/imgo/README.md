@@ -6,4 +6,4 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/vcaesar/imgo)](https://goreportcard.com/report/github.com/vcaesar/imgo)
 [![GoDoc](https://godoc.org/github.com/vcaesar/imgo?status.svg)](https://godoc.org/github.com/vcaesar/imgo)
 [![Release](https://github-release-version.herokuapp.com/github/vcaesar/imgo/release.svg?style=flat)](https://github.com/vcaesar/imgo/releases/latest)
-[![Join the chat at https://gitter.im/go-vgo/robotgo](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/go-vgo/robotgo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/MutexUnlocked/robotgo](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/MutexUnlocked/robotgo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)

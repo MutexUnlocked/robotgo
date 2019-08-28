@@ -1,6 +1,6 @@
-// Copyright 2016 The go-vgo Project Developers. See the COPYRIGHT
+// Copyright 2016 The MutexUnlocked Project Developers. See the COPYRIGHT
 // file at the top-level directory of this distribution and at
-// https://github.com/go-vgo/robotgo/blob/master/LICENSE
+// https://github.com/MutexUnlocked/robotgo/blob/master/LICENSE
 //
 // Licensed under the Apache License, Version 2.0 <LICENSE-APACHE or
 // http://www.apache.org/licenses/LICENSE-2.0> or the MIT license
@@ -15,10 +15,10 @@ Package robotgo Go native cross-platform system automation.
 Please make sure Golang, GCC is installed correctly before installing RobotGo;
 
 See Requirements:
-	https://github.com/go-vgo/robotgo#requirements
+	https://github.com/MutexUnlocked/robotgo#requirements
 
 Installation:
-	go get -u github.com/go-vgo/robotgo
+	go get -u github.com/MutexUnlocked/robotgo
 */
 package robotgo
 
@@ -62,7 +62,7 @@ import (
 	// "syscall"
 	"os/exec"
 
-	"github.com/go-vgo/robotgo/clipboard"
+	"github.com/MutexUnlocked/robotgo/clipboard"
 	hook "github.com/robotn/gohook"
 	ps "github.com/vcaesar/gops"
 	"github.com/vcaesar/imgo"
@@ -536,7 +536,7 @@ func Scroll(x, y int, args ...int) {
 // KeyTap tap the keyboard code;
 //
 // See keys:
-//	https://github.com/go-vgo/robotgo/blob/master/docs/keys.md
+//	https://github.com/MutexUnlocked/robotgo/blob/master/docs/keys.md
 //
 func KeyTap(tapKey string, args ...interface{}) string {
 	var (
@@ -619,7 +619,7 @@ func KeyTap(tapKey string, args ...interface{}) string {
 // KeyToggle toggle the keyboard
 //
 // See keys:
-//	https://github.com/go-vgo/robotgo/blob/master/docs/keys.md
+//	https://github.com/MutexUnlocked/robotgo/blob/master/docs/keys.md
 //
 func KeyToggle(key string, args ...string) string {
 	ckey := C.CString(key)

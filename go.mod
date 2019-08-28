@@ -1,4 +1,4 @@
-module github.com/go-vgo/robotgo
+module github.com/MutexUnlocked/robotgo
 
 require (
 	github.com/BurntSushi/xgb v0.0.0-20160522221800-27f122750802

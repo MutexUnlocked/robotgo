@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/go-vgo/robotgo"
+	"github.com/MutexUnlocked/robotgo"
 )
 
 func main() {

@@ -2,18 +2,18 @@
 
 ## Install:
 ```
-go get -u github.com/go-vgo/robotgo  
+go get -u github.com/MutexUnlocked/robotgo  
 ```
 
-## [Examples:](https://github.com/go-vgo/robotgo/blob/master/examples)
+## [Examples:](https://github.com/MutexUnlocked/robotgo/blob/master/examples)
 
-#### [Mouse](https://github.com/go-vgo/robotgo/blob/master/examples/mouse/main.go)
+#### [Mouse](https://github.com/MutexUnlocked/robotgo/blob/master/examples/mouse/main.go)
 
 ```Go
 package main
 
 import (
-	"github.com/go-vgo/robotgo"
+	"github.com/MutexUnlocked/robotgo"
 )
 
 func main() {
@@ -23,7 +23,7 @@ func main() {
 } 
 ``` 
 
-#### [Keyboard](https://github.com/go-vgo/robotgo/blob/master/examples/key/main.go)
+#### [Keyboard](https://github.com/MutexUnlocked/robotgo/blob/master/examples/key/main.go)
 
 ```Go
 package main
@@ -31,7 +31,7 @@ package main
 import (
   "fmt"
 
-  "github.com/go-vgo/robotgo"
+  "github.com/MutexUnlocked/robotgo"
 )
 
 func main() {
@@ -55,7 +55,7 @@ func main() {
 } 
 ```
 
-#### [Screen](https://github.com/go-vgo/robotgo/blob/master/examples/screen/main.go)
+#### [Screen](https://github.com/MutexUnlocked/robotgo/blob/master/examples/screen/main.go)
 
 ```Go
 package main
@@ -63,7 +63,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-vgo/robotgo"
+	"github.com/MutexUnlocked/robotgo"
 )
 
 func main() {
@@ -74,7 +74,7 @@ func main() {
 } 
 ```
 
-#### [Bitmap](https://github.com/go-vgo/robotgo/blob/master/examples/bitmap/main.go)
+#### [Bitmap](https://github.com/MutexUnlocked/robotgo/blob/master/examples/bitmap/main.go)
 
 ```Go
 package main
@@ -82,7 +82,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-vgo/robotgo"
+	"github.com/MutexUnlocked/robotgo"
 )
 
 func main() {
@@ -98,7 +98,7 @@ func main() {
 } 
 ```
 
-#### [Event](https://github.com/go-vgo/robotgo/blob/master/examples/event/main.go)
+#### [Event](https://github.com/MutexUnlocked/robotgo/blob/master/examples/event/main.go)
 
 ```Go
 package main
@@ -106,7 +106,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-vgo/robotgo"
+	"github.com/MutexUnlocked/robotgo"
 )
 
 func main() {
@@ -122,7 +122,7 @@ func main() {
 } 
 ```
 
-#### [Window](https://github.com/go-vgo/robotgo/blob/master/examples/window/main.go)
+#### [Window](https://github.com/MutexUnlocked/robotgo/blob/master/examples/window/main.go)
 
 ```Go
 package main
@@ -130,7 +130,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-vgo/robotgo"
+	"github.com/MutexUnlocked/robotgo"
 )
 
 func main() {
